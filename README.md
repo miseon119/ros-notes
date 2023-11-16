@@ -22,6 +22,15 @@ ros2 pkg create --build-type ament_python <package name>
 
 <img src="./images/package_xml.png" width="300" height="300" alt="package_xml"> 
 
+open `package.xml` and fill <description>, <maintainer> and <license> tags:
+
+```
+<description>Examples of minimal publisher/subscriber using rclpy</description>
+<maintainer email="you@email.com">Your Name</maintainer>
+<license>Apache License 2.0</license>
+```
+
+
 
 ## ROS Command
 
