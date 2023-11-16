@@ -30,6 +30,14 @@ open `package.xml` and fill <description>, <maintainer> and <license> tags:
 <license>Apache License 2.0</license>
 ```
 
+Add a new line after the `ament_python` buildtool dependency 
+```
+<exec_depend>rclpy</exec_depend>
+<exec_depend>std_msgs</exec_depend>
+```
+
+
+
 
 
 ## ROS Command
