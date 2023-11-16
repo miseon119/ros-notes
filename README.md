@@ -36,6 +36,8 @@ Add a new line after the `ament_python` buildtool dependency
 <exec_depend>std_msgs</exec_depend>
 ```
 
+Match `setup.py` and `package.xml` these fields  `maintainer`, `maintainer_email`, `description` and `license`
+
 
 
 
