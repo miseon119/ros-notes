@@ -9,11 +9,18 @@
 ros2 pkg create --build-type ament_python <package name>
 ``` 
 
+<img src="./images/dir_tree.png" width="300" height="300" alt="dir-tree"> 
+
+
 2. Write a publisher node
 
 [publisher_member_function](./publisher_member_function.py)
 
 <img src="./images/image-1.png" width="300" height="300" alt="publisher-tree"> 
+
+3. Add Dependencies
+
+
 
 ## ROS Command
 
