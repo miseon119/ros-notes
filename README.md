@@ -52,6 +52,15 @@ like this,
 
 [subscriber_member_function](./subscriber_member_function.py)
 
+5. Build and Run
+
+check dependencies
+```
+rosdep install -i --from-path src --rosdistro <distro> -y
+```
+
+
+
 
 ## ROS Command
 
