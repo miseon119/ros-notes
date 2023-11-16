@@ -9,7 +9,7 @@
 ros2 pkg create --build-type ament_python <package name>
 ``` 
 
-<img src="./images/dir_tree.png" width="300" height="300" alt="dir-tree"> 
+<img src="./images/dir_tree.png" width="300" height="100" alt="dir-tree"> 
 
 
 2. Write a publisher node
