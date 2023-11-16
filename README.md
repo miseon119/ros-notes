@@ -14,7 +14,7 @@ ros2 pkg create --build-type ament_python <package name>
 [publisher_member_function](./publisher_member_function.py)
 
 ![publisher-tree](./images/image-1.png)
-<img src="./path/to/image.png" width="300" height="300" alt="publisher-tree"> 
+<img src="./images/image-1.png" width="300" height="300" alt="publisher-tree"> 
 
 ## ROS Command
 
