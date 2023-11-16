@@ -20,6 +20,7 @@ ros2 pkg create --build-type ament_python <package name>
 
 3. Add Dependencies
 
+<img src="./images/package_xml.png" width="300" height="300" alt="package_xml"> 
 
 
 ## ROS Command
