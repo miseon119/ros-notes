@@ -38,6 +38,20 @@ Add a new line after the `ament_python` buildtool dependency
 
 Match `setup.py` and `package.xml` these fields  `maintainer`, `maintainer_email`, `description` and `license`
 
+Add an  entry point
+```
+entry_points={
+        'console_scripts': [
+                'talker = py_pubsub.publisher_member_function:main',
+        ],
+},
+```
+
+4. Write subscriber node 
+like this,
+
+[subscriber_member_function](./subscriber_member_function.py)
+
 
 
 
