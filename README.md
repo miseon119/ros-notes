@@ -59,7 +59,20 @@ check dependencies
 rosdep install -i --from-path src --rosdistro <distro> -y
 ```
 
+Build
+```
+colcon build --packages-select py_pubsub
+```
 
+Install
+```
+. install/setup.bash
+```
+
+Run
+```
+ros2 run py_pubsub talker
+```
 
 
 ## ROS Command
