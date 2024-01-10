@@ -1,5 +1,17 @@
 # ros-notes
 
+## ROS Tools
+
+### rqt_graph
+
+graph color meaning:
+
+Red box : Topic
+blue circle : node publishing under the topic
+Green circle : node subscribing to that to
+Anything you hover on becomes red. With stuff before that blue and after green. 
+
+
 ## ROS2 Write A Publisher-Subscriber Node Using Python
 
 ![flow](./images/image.png)
